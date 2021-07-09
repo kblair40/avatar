@@ -1,0 +1,15 @@
+.headContainer {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  background-color: tan;
+  position: relative;
+  top: 1rem;
+}
+
+.eyesContainer {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 3rem;
+}

@@ -1,18 +1,19 @@
 import React from "react";
+
+import "./Head.css";
 import Backdrop from "../UI/Backdrop";
-import "./HeadAndEyes.css";
+import Eyes from "./Eyes";
+import Nose from "./Nose";
 
 const Head = () => {
   return (
     <Backdrop>
       <div className="headContainer">
         <div className="eyesContainer">
-          <div className="eye leftEye">
-            <div className="pupil"></div>
-          </div>
-          <div className="eye rightEye">
-            <div className="pupil"></div>
-          </div>
+          <Eyes />
+        </div>
+        <div className="noseContainer">
+          <Nose />
         </div>
       </div>
     </Backdrop>

@@ -1,11 +1,11 @@
 import React from "react";
 import Backdrop from "./components/UI/Backdrop";
-import HeadAndEyes from "./components/Head/HeadAndEyes";
+import Head from "./components/Head/Head";
 
 function App() {
   return (
     <div className="App">
-      <HeadAndEyes />
+      <Head />
     </div>
   );
 }

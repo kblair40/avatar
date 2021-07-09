@@ -1,0 +1,17 @@
+.noseCircle {
+  height: 2.5rem;
+  width: 1.5rem;
+  background: white;
+  position: relative;
+  top: 4rem;
+  left: 6.75rem;
+  border-radius: 70%;
+}
+
+.nosecircle {
+  background: white;
+  position: relative;
+  top: 4rem;
+  left: 6.75rem;
+  border-radius: 70%;
+}
