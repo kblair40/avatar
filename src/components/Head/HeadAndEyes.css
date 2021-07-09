@@ -1,0 +1,44 @@
+.headContainer {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  background-color: tan;
+  position: relative;
+  top: 1rem;
+  /* display: flex; */
+}
+
+.eyesContainer {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 3rem;
+}
+
+.eye {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pupil {
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 50%;
+  background: skyblue;
+  position: relative;
+  top: 0.2rem;
+}
+
+.leftEye .pupil {
+  /* position: relative; */
+  left: 0.1rem;
+}
+
+.rightEye .pupil {
+  right: 0.1rem;
+}
