@@ -1,0 +1,19 @@
+.neck {
+  position: absolute;
+  top: 11rem;
+  left: 45px;
+  height: 96px;
+  width: 110px;
+  background: #ffd7b3;
+}
+
+.shirt-cutout {
+  position: absolute;
+  top: 15rem;
+  left: 45px;
+  height: 20px;
+  width: 110px;
+  border-radius: 50%;
+  background-color: #ffd7b3;
+  z-index: 6;
+}

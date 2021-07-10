@@ -7,6 +7,8 @@ import Nose from "./Nose";
 import Hair from "./Hair";
 import Ears from "./Ears";
 import Mouth from "./Mouth";
+import Neck from "./Neck";
+import Body from "./Body";
 
 const Head = () => {
   return (
@@ -26,6 +28,12 @@ const Head = () => {
         </div>
         <div className="mouthContainer">
           <Mouth />
+        </div>
+        <div className="neckContainer">
+          <Neck />
+        </div>
+        <div className="bodyContainer">
+          <Body />
         </div>
       </div>
     </Backdrop>

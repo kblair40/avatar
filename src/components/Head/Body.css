@@ -1,0 +1,22 @@
+.body {
+  position: absolute;
+  top: 250px;
+  height: 10rem;
+  width: 240px;
+  left: -20px;
+  background-color: blue;
+  border-radius: 25% 25% 0 0;
+}
+
+.arm-divider {
+  position: absolute;
+  height: 70px;
+  border: 1px solid black;
+  top: 18.5rem;
+}
+.arm-divider-left {
+  left: 10px;
+}
+.arm-divider-right {
+  right: 10px;
+}
