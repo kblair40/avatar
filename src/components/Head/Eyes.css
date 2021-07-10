@@ -21,7 +21,7 @@
   border-radius: 50%;
   background: skyblue;
   position: relative;
-  top: 0.1rem;
+  top: 1px;
   display: flex;
   justify-content: center;
   align-items: center;
