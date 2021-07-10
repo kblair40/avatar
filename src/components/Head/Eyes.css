@@ -29,22 +29,48 @@
 
 .pupil {
   background-color: black;
-  height: 0.2rem;
-  width: 0.2rem;
+  height: 0.3rem;
+  width: 0.3rem;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pupil-detail {
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 1px;
+  width: 1px;
+  border-radius: 50%;
+  position: relative;
 }
 
 .eyebrow {
   position: absolute;
-  height: 0.3rem;
+  height: 0.35rem;
   width: 2rem;
-  background: brown;
-  top: -1rem;
+  background: #734935;
+  top: -0.5rem;
+  border-radius: 50% 50% 0 0;
 }
 .left-eyebrow {
   left: 2.7rem;
 }
-
 .right-eyebrow {
+  right: 2.7rem;
+}
+
+.eyebrow-rounded {
+  z-index: 6;
+  position: absolute;
+  height: 3px;
+  width: 2rem;
+  border-radius: 50%;
+  top: -4px;
+  background: #ffd7b3;
+}
+.left-eyebrow-rounded {
+  left: 2.7rem;
+}
+.right-eyebrow-rounded {
   right: 2.7rem;
 }

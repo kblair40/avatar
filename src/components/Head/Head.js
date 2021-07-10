@@ -5,6 +5,7 @@ import Backdrop from "../UI/Backdrop";
 import Eyes from "./Eyes";
 import Nose from "./Nose";
 import Hair from "./Hair";
+import Ears from "./Ears";
 
 const Head = () => {
   return (
@@ -12,6 +13,9 @@ const Head = () => {
       <div className="headContainer">
         <div className="hairContainer">
           <Hair />
+        </div>
+        <div className="earsContainer">
+          <Ears />
         </div>
         <div className="eyesContainer">
           <Eyes />

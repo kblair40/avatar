@@ -1,0 +1,16 @@
+.ear {
+  position: absolute;
+  top: 32%;
+  width: 10%;
+  height: 24%;
+  background: rgb(260, 217, 184);
+  border-radius: 50%;
+}
+
+.ear-right {
+  right: -4%;
+}
+
+.ear-left {
+  left: -4%;
+}
