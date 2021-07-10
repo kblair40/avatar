@@ -1,5 +1,4 @@
 import React from "react";
-import Backdrop from "./components/UI/Backdrop";
 import Head from "./components/Head/Head";
 
 function App() {

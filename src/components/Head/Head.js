@@ -4,11 +4,15 @@ import "./Head.css";
 import Backdrop from "../UI/Backdrop";
 import Eyes from "./Eyes";
 import Nose from "./Nose";
+import Hair from "./Hair";
 
 const Head = () => {
   return (
     <Backdrop>
       <div className="headContainer">
+        <div className="hairContainer">
+          <Hair />
+        </div>
         <div className="eyesContainer">
           <Eyes />
         </div>

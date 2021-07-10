@@ -1,27 +1,50 @@
 .eye {
-  height: 1.5rem;
-  width: 1.5rem;
+  position: absolute;
+  height: 1.2rem;
+  width: 2rem;
   border-radius: 50%;
   background: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.left-eye {
+  left: 2.7rem;
+}
+.right-eye {
+  right: 2.7rem;
+}
 
-.pupil {
-  height: 0.8rem;
-  width: 0.8rem;
+.iris {
+  height: 0.9rem;
+  width: 1rem;
   border-radius: 50%;
   background: skyblue;
   position: relative;
-  top: 0.2rem;
+  top: 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.leftEye .pupil {
-  /* position: relative; */
-  left: 0.1rem;
+.pupil {
+  background-color: black;
+  height: 0.2rem;
+  width: 0.2rem;
+  border-radius: 50%;
 }
 
-.rightEye .pupil {
-  right: 0.1rem;
+.eyebrow {
+  position: absolute;
+  height: 0.3rem;
+  width: 2rem;
+  background: brown;
+  top: -1rem;
+}
+.left-eyebrow {
+  left: 2.7rem;
+}
+
+.right-eyebrow {
+  right: 2.7rem;
 }
